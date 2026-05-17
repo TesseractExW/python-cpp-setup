@@ -22,13 +22,13 @@
 
 1. Press "ctrl + `" to open a terminal.
 1) Full version (Custom output file)
-For C       "gcc -std=c23 FILENAME.c -o FILENAME.exe && ./FILENAME"
-For C++     "g++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME.exe && ./FILENAME"
-For Python  "python3 FILENAME.py"
+- For C>"gcc -std=c23 FILENAME.c -o FILENAME.exe && ./FILENAME"
+- For C++>"g++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME.exe && ./FILENAME"
+- For Python>"python3 FILENAME.py"
 2) Lazy version 
-For C       "gcc -std=c23 FILENAME.c && ./a"
-For C++     "g++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a" 
-For Python  "python FILENAME.py"
+- For C>"gcc -std=c23 FILENAME.c && ./a"
+- For C++>"g++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a" 
+- For Python>"python FILENAME.py"
 
 # Run via extension -> Use "ctrl + F5".
 # Debugging -> Use "F5".

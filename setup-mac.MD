@@ -17,13 +17,13 @@
 
 1. Press "Command + `" to open a terminal.
 1) Full version (Custom output file)
-For C       "clang -std=c23 FILENAME.c -o FILENAME && ./FILENAME"
-For C++     "clang++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME && ./FILENAME"
-For Python  "python FILENAME.py"
+- For C>"clang -std=c23 FILENAME.c -o FILENAME && ./FILENAME"
+- For C++>"clang++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME && ./FILENAME"
+- For Python>"python FILENAME.py"
 2) Lazy version 
-For C       "clang -std=c23 FILENAME.c && ./a"
-For C++     "clang++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a" 
-For Python  "python FILENAME.py"
+- For C>"clang -std=c23 FILENAME.c && ./a"
+- For C++>"clang++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a" 
+- For Python>"python FILENAME.py"
 
 # Run via extension -> Use "Command + F5".
 # Debugging -> Use "F5".
