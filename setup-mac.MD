@@ -20,13 +20,13 @@
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `clang -std=c23 FILENAME.c -o FILENAME && ./FILENAME` |
-| **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME && ./FILENAME` |
+| **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp FILENAME && ./FILENAME` |
 | **Python** | `python FILENAME.py` |
 2) Lazy version 
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `clang -std=c23 FILENAME.c && ./a` |
-| **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp -o && ./a` |
+| **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a` |
 | **Python** | `python FILENAME.py` |
 
 # Run via extension -> Use "Command + F5".

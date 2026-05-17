@@ -30,8 +30,8 @@
 2) Lazy version 
 | Language | Compilation & Execution Command |
 | :--- | :--- |
-| **C** | `gcc -std=c23 FILENAME.c -o FILENAME.exe && ./FILENAME` |
-| **C++** | `g++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME.exe && ./FILENAME` |
+| **C** | `gcc -std=c23 FILENAME.c && ./a` |
+| **C++** | `g++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a` |
 | **Python** | `python3 FILENAME.py` |
 
 # Run via extension -> Use `ctrl + F5`.
