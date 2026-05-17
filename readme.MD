@@ -1,4 +1,4 @@
-# Python/C/C++ setup for VSCode
+# Python/C/C++ setup for VSCode.
 
 This mainly focuses on more recent standards of Python, C, C++.
 
