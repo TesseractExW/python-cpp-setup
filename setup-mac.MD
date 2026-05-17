@@ -17,18 +17,20 @@
 
 1. Press ``Command + ` `` to open a terminal.
 1) Full version (Custom output file)
+
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `clang -std=c23 FILENAME.c -o FILENAME && ./FILENAME` |
 | **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp FILENAME && ./FILENAME` |
 | **Python** | `python FILENAME.py` |
 2) Lazy version 
+
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `clang -std=c23 FILENAME.c && ./a` |
 | **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp && ./a` |
 | **Python** | `python FILENAME.py` |
 
-# Run via extension -> Use "Command + F5".
-# Debugging -> Use "F5".
+# Run via extension -> Use `Command + F5`.
+# Debugging -> Use `F5`.
 # It's normal for MacOS to miss bits/stdc++.h header. Consider manually include each header.

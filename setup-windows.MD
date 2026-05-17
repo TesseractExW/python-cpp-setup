@@ -22,12 +22,14 @@
 
 1. Press ``ctrl + ` `` to open a terminal.
 1) Full version (Custom output file)
+
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `gcc -std=c23 FILENAME.c -o FILENAME.exe && ./FILENAME` |
 | **C++** | `g++ -std=c++23 FILENAME.cpp -lstdc++exp -o FILENAME.exe && ./FILENAME` |
 | **Python** | `python3 FILENAME.py` |
 2) Lazy version 
+
 | Language | Compilation & Execution Command |
 | :--- | :--- |
 | **C** | `gcc -std=c23 FILENAME.c && ./a` |
