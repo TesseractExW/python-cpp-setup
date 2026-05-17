@@ -25,7 +25,7 @@
 2) Lazy version 
 | Language | Compilation & Execution Command |
 | :--- | :--- |
-| **C** | `clang -std=c23 FILENAME.c && ./ah` |
+| **C** | `clang -std=c23 FILENAME.c && ./a` |
 | **C++** | `clang++ -std=c++23 FILENAME.cpp -lstdc++exp -o && ./a` |
 | **Python** | `python FILENAME.py` |
 
