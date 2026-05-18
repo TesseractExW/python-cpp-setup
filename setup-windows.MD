@@ -1,11 +1,11 @@
 # I don't recommend to download Python/GCC/G++/Clang/Clang++ via Microsoft Store or non MSYS2 enviroment.
 
-1. Install MSYS2 from `https://www.msys2.org/`.
+1. Install MSYS2 from "https://www.msys2.org/".
 2. Open UCRT64 enviroment terminal. 
-3. Run the following command `pacman -S mingw-w64-ucrt-x86_64-gcc`.
+3. Run the following command `pacman -S mingw-w64-ucrt-x86_64-toolchain`.
 4. Check if GCC and python is installed by run the following command in the URCT64 terminal `gcc --version && python --version`
 5. Run the following command to install python-pip `pacman -S mingw-w64-ucrt-x86_64-python-pip`.
-6. Add your `.../msys2/ucrt64/bin` into system enviroment path.
+6. Add your ".../msys2/ucrt64/bin" into system enviroment path.
 
 # VSCode setup.
 
@@ -14,7 +14,7 @@
 3. Search and install C/C++ and Python by Microsoft.
 4. Test if Python/C/C++ IntelliSense is working properly.
 5. Press `ctrl + shift + P` and search `User Settings JSON`.
-6. Open `https://pastebin.com/Wtm15nc0`.
+6. Open "https://pastebin.com/Wtm15nc0".
 7. Copy the content, change the `"path": "...\"` to your MSYS2 path add it inside settings.json.
 8. Test by running all the Test files.
 

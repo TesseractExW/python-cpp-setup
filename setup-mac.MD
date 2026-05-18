@@ -9,7 +9,7 @@
 3. Search and install C/C++ and Python by Microsoft.
 4. Test if Python/C/C++ IntelliSense is working properly.
 5. Press `Command + shift + P` and search `User Settings JSON`.
-6. Open `https://pastebin.com/m52m8s2t` 
+6. Open "https://pastebin.com/m52m8s2t" 
 7. Copy the content, add it inside settings.json.
 8. Test by running all the Test files.
 
